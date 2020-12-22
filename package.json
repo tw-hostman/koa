@@ -1,0 +1,25 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "mm",
+  "main": "app.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tw-hostman/koa.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tw-hostman/koa/issues"
+  },
+  "homepage": "https://github.com/tw-hostman/koa#readme"
+	"scripts":{
+		"install":"npm install koa-body && npm install koa-views && npm install koa-logger && npm install @koa/router && npm install swig"
+	}
+}
